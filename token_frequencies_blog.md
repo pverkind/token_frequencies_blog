@@ -7,7 +7,7 @@ the most frequently used words in a text.
 
 There are quite a lot of online tools that allow you to
 upload a file (or provide a link to a web page)
-and they will produce a nice table with word counts. 
+and will produce a nice table with word counts. 
 
 Unfortunately, this specific user group participant works
 with the largest text in the KITAB corpus, 
@@ -46,7 +46,7 @@ and other sub-projects.
 
 The tool can be found [here](https://openiti.github.io/tokenFrequency/).
 
-![Start screen](/img/startscreen.png)
+>![Start screen](/img/startscreen.png)
 
 In its simplest form, you upload a text and get a table
 with token frequency counts in return. You can browse 
@@ -54,13 +54,11 @@ through the table online, or download it as a csv file
 (by clicking "Download table as csv file" at the top of the table)
 that you can import into a spreadsheet program. 
 
-![Table output](/img/table_output.png)
+>![Table output](/img/table_output.png)
 
 An additional advantage of building such a tool yourself
 is that you can customize it to your own wishes. 
 I added a number of options I would personally find useful:
-
-![Options](/img/options.png)
 
 * a minimum limit for the number of times a token needs 
   to be in the text for it to be included in the table;
@@ -82,6 +80,9 @@ I added a number of options I would personally find useful:
   but you can also provide a regular expression of 
   your own to split off headers that are delimited
   in another way.
+
+>![Options](/img/options.png)
+
 
 This was a really quick build, if you would find more options 
 useful, don't hesitate to contact me!
