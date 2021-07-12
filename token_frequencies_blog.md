@@ -7,7 +7,7 @@ the most frequently used words in a text.
 
 There are quite a lot of online tools that allow you to
 upload a file (or provide a link to a web page)
-and they will provide you with a nice table with word counts. 
+and they will produce a nice table with word counts. 
 
 Unfortunately, this specific user group participant works
 with the largest text in the KITAB corpus, 
@@ -227,7 +227,7 @@ we could try to sum up the counts for these tokens:
 |1   |***وإنماالكتاب***|
 |1   |لكتابك|
 
-But even that is not alwayse possible. For example, 
+But even that is not always possible. For example, 
 the word *kataba* ("he wrote") and the word *kutub*
 ("books") are clearly separate words, but they are written
 in exactly the same way in unvocalized Arabic (كتب), and
@@ -252,7 +252,7 @@ tokens) extracted from the entire OpenITI corpus for identifying
 possible OCR mistakes in texts produced by the 
 [OCR](https://medium.com/@openiti/openiti-aocp-9802865a6586)
 pipeline we are setting up to get additional texts into the corpus.
-More about this in a next blog!
+More about this in a later blog!
 
 
 ## List of Unicode characters for tokenization:
